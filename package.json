@@ -90,6 +90,7 @@
     "jest-diff": "^29.6.2",
     "jest-docblock": "^29.4.3",
     "jest-each": "^29.6.2",
+    "jest-environment-jsdom": "^29.6.2",
     "jest-environment-node": "^29.6.2",
     "jest-get-type": "^29.4.3",
     "jest-haste-map": "^29.6.2",
