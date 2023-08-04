@@ -84,7 +84,6 @@
     "istanbul-lib-report": "^3.0.1",
     "istanbul-lib-source-maps": "^4.0.1",
     "istanbul-reports": "^3.1.6",
-    "jest": "^29.6.2",
     "jest-changed-files": "^29.5.0",
     "jest-circus": "^29.6.2",
     "jest-cli": "^29.6.2",
@@ -192,7 +191,11 @@
     "yargs-parser": "^21.1.1",
     "yocto-queue": "^0.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
   "scripts": {
     "test": "jest"
   },
