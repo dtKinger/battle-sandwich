@@ -1,2 +1,7 @@
-# battle-sandwich
-It's like Battleship... only hungrier!
+# Battle Sandwich
+It's like Battleship... only tastier!
+
+## Key Learnings
+
+
+## Reminders
