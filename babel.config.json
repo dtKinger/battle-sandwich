@@ -1,15 +1,5 @@
 {
   "presets": ["@babel/preset-env"]
 }
-  //{
-  // "env": {
-  //   "test": {
-  //     "plugins": ["@babel/preset-env"]
-  //   }
-  // }
-
-  //'@babel/plugin-syntax-dynamic-import', // recommended for dynamic imports (not using require)
-  // '@babel/preset-env' // default plugin - possibly more up
-
 
 
