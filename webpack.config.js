@@ -5,11 +5,11 @@ module.exports = {
     index: './src/index.js',
     dom: './src/dom.js',
   },
-  devtool: 'eval',
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
+  devtool: 'eval',
   module: {
     rules: [
       {

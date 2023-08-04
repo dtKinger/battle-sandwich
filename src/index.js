@@ -10,6 +10,4 @@ import './dom.js'
 const pageHeader = document.querySelector('.header')
 
 /* Application */
-pageHeader.classList.add('hello')
-
 console.log('Welcome to Battle Sandwich!')
