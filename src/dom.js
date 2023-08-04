@@ -3,6 +3,7 @@ export const dom = ( () => {
   const oddRowSquares = document.querySelectorAll('.odd-row')
   const evenRowSquares = document.querySelectorAll('.even-row')
   
+  let colorOddRows = ( () => {
   oddRowSquares.forEach( (square) => {
     if (square.dataset.id )
       if (square.dataset.id % 2 !== 0){
@@ -11,6 +12,7 @@ export const dom = ( () => {
         square.classList.add('dark-wood');
       }
     })
+  })()
 
   evenRowSquares.forEach( (square) => {
     if (square.dataset.id )
